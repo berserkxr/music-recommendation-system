@@ -41,6 +41,5 @@ def get_hybrid_recommendations(song_name, num_recs = 5):
 
     return recommendations[['track_name', 'track_artist', 'track_album_name', 'sim_score']].head(num_recs)
 
-# --- TEST IT ---
-print("Recommendations for 'Smells like teen spirit': \n")
-print(get_hybrid_recommendations("Smells like teen spirit"))
+
+
